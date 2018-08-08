@@ -1,0 +1,1 @@
+g++  -std=c++0x -g -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -rdynamic -o2 -finline-limit=1000 -DNDEBUG  -rdynamic CMakeFiles/test_sockwr.dir/test_socketwr.cpp.o CMakeFiles/test_sockwr.dir/home/dan/Server/src/qb/sync_server/net/SocketWrapper.cpp.o  -o bin/test_sockwr 

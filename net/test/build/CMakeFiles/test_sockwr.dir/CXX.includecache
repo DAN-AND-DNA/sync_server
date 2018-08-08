@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/dan/Server/src/qb/sync_server/net/SocketWrapper.cpp
+sync_server/net/SocketWrapper.h
+-
+sys/socket.h
+-
+netdb.h
+-
+string.h
+-
+stdio.h
+-
+unistd.h
+-
+
+/home/dan/Server/src/qb/sync_server/net/SocketWrapper.h
+sys/socket.h
+-
+netdb.h
+-
+string.h
+-
+stdio.h
+-
+unistd.h
+-
+
+/home/dan/Server/src/qb/sync_server/net/test/test_socketwr.cpp
+sync_server/net/SocketWrapper.h
+-
+iostream
+-
+
