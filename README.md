@@ -2,7 +2,7 @@
 this project is just show you how to use async hiredis in your network libs
 
 build:
-1. no deps(hiredis is ./lib and ./redis)
+1. no deps(hiredis is in ./lib and ./redis)
 2. vim CMakeLists.txt to change SYNC_SERVER_NET_PATH & change password in sync_server/eventloop/RedisChannel.cpp
 3. cd build; cmake ..; make
 
